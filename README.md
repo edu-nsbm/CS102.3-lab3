@@ -1,2 +1,4 @@
-# CS102.3-lab3
-CS102.3 (Programming Fundamentals) - Lab 03
+# Lab Session 3
+
+> [!IMPORTANT]
+> Lab session 3 (31/03/2026)
