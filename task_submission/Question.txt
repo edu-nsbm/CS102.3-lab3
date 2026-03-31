@@ -1,0 +1,15 @@
+Bank Withdrawal System
+Write a Python program to simulate a simple bank withdrawal system.
+
+Your program should:
+
+Accept the account balance from the user
+Accept the withdrawal amount from the user
+Apply the following conditions:
+If the withdrawal amount is greater than the account balance, display:
+"Insufficient balance"
+If the withdrawal is possible, but the remaining balance is less than Rs. 500, display:
+"Cannot withdraw. Minimum balance of 500 required"
+Otherwise, allow the withdrawal and display:
+"Withdrawal successful"
+Remaining balance
