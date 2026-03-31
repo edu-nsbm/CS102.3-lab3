@@ -1,15 +1,15 @@
 def main() -> None:
     while True:
         try:
-            input_num: float = float(input("Enter your number: "))
+            number: float = float(input("Enter age: "))
             break
         except ValueError:
             print("Invalid number. Retry")
 
-    if input_num >= 0:
-        print("Positive")
+    if number >= 18:
+        print("Eligiable")
     else:
-        print("Negative")
+        print("Not eligiable")
 
 
 if __name__ == "__main__":
