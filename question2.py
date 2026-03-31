@@ -1,7 +1,7 @@
 def main() -> None:
-    input: int = int(input("Enter your number"))
+    input_num: int = int(input("Enter your number: "))
 
-    if input >= 0:
+    if input_num >= 0:
         print("Positive")
     else:
         print("Negative")
