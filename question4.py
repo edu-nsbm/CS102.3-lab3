@@ -1,7 +1,7 @@
 def main() -> None:
     while True:
         try:
-            number: float = float(input("Enter age: "))
+            number: int = int(input("Enter age: "))
             break
         except ValueError:
             print("Invalid number. Retry")
